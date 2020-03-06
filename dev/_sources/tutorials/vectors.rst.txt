@@ -63,6 +63,10 @@ sample GPS velocity data from the U.S. West coast.
 
  .. code-block:: none
 
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_xticks(xticks, minor)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_yticks(yticks, minor)
     /home/travis/build/fatiando/verde/tutorials/vectors.py:38: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all axes decorations. 
       plt.tight_layout()
 
@@ -109,6 +113,12 @@ components.
 
  .. code-block:: none
 
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/verde/blockreduce.py:449: RuntimeWarning: divide by zero encountered in double_scalars
+      {"weight{}".format(i): lambda x: 1 / x.sum() for i in range(ncomps)}
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/numpy/lib/function_base.py:393: RuntimeWarning: Mean of empty slice.
+      avg = a.mean(axis)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/numpy/core/_methods.py:161: RuntimeWarning: invalid value encountered in double_scalars
+      ret = ret.dtype.type(ret / rcount)
     2 2
 
 
@@ -378,6 +388,10 @@ Now we can map the trends.
 
  .. code-block:: none
 
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_xticks(xticks, minor)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_yticks(yticks, minor)
     /home/travis/build/fatiando/verde/tutorials/vectors.py:193: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all axes decorations. 
       plt.tight_layout()
 
@@ -493,6 +507,12 @@ Fitting the spline and gridding is exactly the same as what we've done before.
 
  .. code-block:: none
 
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/verde/blockreduce.py:449: RuntimeWarning: divide by zero encountered in double_scalars
+      {"weight{}".format(i): lambda x: 1 / x.sum() for i in range(ncomps)}
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/numpy/lib/function_base.py:393: RuntimeWarning: Mean of empty slice.
+      avg = a.mean(axis)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/numpy/core/_methods.py:161: RuntimeWarning: invalid value encountered in double_scalars
+      ret = ret.dtype.type(ret / rcount)
     0.9926765828507806
     <xarray.Dataset>
     Dimensions:          (latitude: 49, longitude: 47)
@@ -555,6 +575,10 @@ Mask out the points too far from data and plot the gridded vectors.
       u, v = self.projection.transform_vectors(t, x, y, u, v)
     /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:1752: RuntimeWarning: invalid value encountered in greater
       u, v = self.projection.transform_vectors(t, x, y, u, v)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_xticks(xticks, minor)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_yticks(yticks, minor)
     /home/travis/build/fatiando/verde/tutorials/vectors.py:280: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all axes decorations. 
       plt.tight_layout()
 
@@ -580,7 +604,7 @@ Green's functions.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  2.244 seconds)
+   **Total running time of the script:** ( 0 minutes  2.254 seconds)
 
 
 .. _sphx_glr_download_tutorials_vectors.py:

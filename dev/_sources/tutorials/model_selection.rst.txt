@@ -362,7 +362,7 @@ intermediate values in the scheduled computations.
 
  .. code-block:: none
 
-    Delayed scores: [Delayed('mean-9b750d83-2508-4324-aa53-c30be1c58bb6'), Delayed('mean-de79e76c-c347-4335-a27d-f600aeba8289'), Delayed('mean-925901d7-179d-4d53-bd35-b96946b71429'), Delayed('mean-447a023e-7dd8-40df-af72-45dc53eb1f39'), Delayed('mean-a584c572-1cd1-4a36-8998-d20152cad684'), Delayed('mean-5557a60b-12a3-4528-8a25-fd233a06ab7e'), Delayed('mean-4276a766-1925-4026-8de1-192c616dce88'), Delayed('mean-62410594-f53e-40e1-a3ff-83c91ed3242c'), Delayed('mean-3e8171fd-69a9-4fa7-a919-d112e763dcc4'), Delayed('mean-044ef77b-275c-4577-9103-327c724888d6'), Delayed('mean-e6f73eb2-a190-4197-a4e8-9d613c620af8'), Delayed('mean-1d0d3529-b720-46f7-a124-a275062f244b'), Delayed('mean-ce84a3a8-552d-41ce-88cd-d55534f17eca'), Delayed('mean-3c8be123-126b-4a1d-aa69-d6e5980594ec'), Delayed('mean-f51b7356-28fe-4a78-89ee-ed4257751dfa'), Delayed('mean-f19d5eef-6c8d-4953-a2fa-e657ed9dc64b')]
+    Delayed scores: [Delayed('mean-36fe62f7-d825-42dc-9890-f4b7df4579ff'), Delayed('mean-ab4e746d-5026-478d-8540-3b46b55a7c1a'), Delayed('mean-50c5e4e1-6fb3-48fa-8724-aec416d7717e'), Delayed('mean-8f7c4dd9-329b-44c5-ab70-a2475711b59d'), Delayed('mean-8abd1049-26ce-44f5-bc06-9582429a08f7'), Delayed('mean-2e0f5d72-608e-4465-8378-440fce0ed817'), Delayed('mean-ca9b4070-0a3f-4532-b81d-8defaf228d44'), Delayed('mean-78290f57-d833-4d8a-b5f9-14dc302d723b'), Delayed('mean-675c2836-20b1-4460-8c33-19fe27d85e9e'), Delayed('mean-6375f9f1-df36-418b-8636-41a13e3745b7'), Delayed('mean-c3a8293e-3101-4b35-a1f7-6a2bed959e2c'), Delayed('mean-fa085590-71ce-46f4-9039-125143f5e9b3'), Delayed('mean-abcedd77-13c0-4108-b6b0-fd1cc028e76a'), Delayed('mean-b304436f-2226-4044-ad9a-608b5eaaecea'), Delayed('mean-b15df8cd-58b5-4976-9df3-57f867576b0d'), Delayed('mean-b442c174-f09b-4f4b-8213-4e1fc7dd16bc')]
 
 
 
@@ -447,6 +447,14 @@ Let's plot our grids side-by-side:
 
  .. code-block:: none
 
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_xticks(xticks, minor)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_yticks(yticks, minor)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_xticks(xticks, minor)
+    /home/travis/miniconda/envs/testing/lib/python3.6/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+      return super(GeoAxes, self).set_yticks(yticks, minor)
     /home/travis/build/fatiando/verde/tutorials/model_selection.py:208: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all axes decorations. 
       plt.tight_layout()
 
@@ -460,7 +468,7 @@ wavelength features that we get from the defaults.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  2.673 seconds)
+   **Total running time of the script:** ( 0 minutes  2.936 seconds)
 
 
 .. _sphx_glr_download_tutorials_model_selection.py:
